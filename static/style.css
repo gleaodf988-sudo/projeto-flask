@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#47443f;
+}
+
+.login,
+.painel{
+    width:420px;
+    margin:60px auto;
+    background:#FFF9F2;
+    padding:30px;
+    border:1px solid #D8C7AE;
+    border-radius:12px;
+    text-align:center;
+}
+
+h1{
+    color:#5e5854;
+    margin-bottom:25px;
+}
+
+label{
+    display:block;
+    text-align:left;
+    margin-top:15px;
+    color:#3f362f;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    border:1px solid #CDBBA7;
+    border-radius:6px;
+    box-sizing:border-box;
+}
+
+.botao,
+button{
+    width:100%;
+    margin-top:25px;
+    padding:12px;
+    background:#413b37;
+    color:white;
+    border:none;
+    border-radius:6px;
+    text-decoration:none;
+    cursor:pointer;
+    display:inline-block;
+    box-sizing:border-box;
+}
+
+.botao:hover,
+button:hover{
+    background:#35302d;
+}
+
+.sair{
+    margin-top:35px;
+}
+
+img{
+    width:100%;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+.erro{
+    color:#0004ff;
+}
